@@ -1,0 +1,1 @@
+# Galeria-slider-auto-manual
