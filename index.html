@@ -5,9 +5,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <title>Document</title>
 </head>
 <body>
+
+  <h1 class="title"> SLIDER ANIMATED & MANUAL</h1>
+
+
+  <section section class="galeria__slider" id="galeria__slider">
+    <div class="galeria__slider__container">
+      <div class="galeria__slider__container__items">
+        <!-- <div class="galeria__slider__container__item">
+          <div class="galeria__slider__container__item__text">
+            <h1 class="slider__container__item__text__title">Protect the Wild animals </h1>
+
+          <div class="slider__container__item__text__p">
+            Great explorer of the truth, the master-builder of human happiness not know how to pursue pleasure rationally... 
+          </div>
+          </div>
+        </div> -->
+        <img class="galeria__slider__container__item galeria-animate-right animate__slideInLeft" src="assets/img/audio-1851517_1280.jpg" style="width:100%">
+      </div>
+      <div class="galeria__slider__container__items">
+      <img class="galeria__slider__container__item galeria-animate-left animate__slideInRight" src="assets/img/musician-349790_1280.jpg" style="width:100%">
+    </div>
+    <div class="galeria__slider__container__items">
+      <img class="galeria__slider__container__item galeria-animate-right animate__slideInRight" src="assets/img/piano-1655558_1280.jpg" style="width:100%">
+    </div>
+    <div class="galeria__slider__container__items">
+      <img class="galeria__slider__container__item galeria-animate-right animate__slideInRight" src="assets/img/samsung-605439_1280.jpg" style="width:100%">
+    </div>
+
+    <div class="galeria__slider__container__arrows">
+        <div class="galeria__slider__container__arrow-prev" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="galeria__slider__container__arrow-next" onclick="plusDivs(1)">&#10095;</div>
+    </div>
+
+    <div class="galeria__slider__container__circles">
+      <span class="galeria__slider__container__circle" onclick="currentDiv(1)"></span>
+      <span class="galeria__slider__container__circle" onclick="currentDiv(2)"></span>
+      <span class="galeria__slider__container__circle" onclick="currentDiv(3)"></span>
+      <span class="galeria__slider__container__circle" onclick="currentDiv(4)"></span>
+    </div>
+
+
+
+    </div>
+
+  </section>
   
 </body>
 <script src="assets/galeria-slider.js"></script>
